@@ -1,4 +1,4 @@
-const getAverage = require ('../src/gradebook_app.js')
+const getAverage = require ('../src/average_score.js')
 
 describe ('getAverage function', () => {
     test('calculates the average of an array of numbers', () => {
