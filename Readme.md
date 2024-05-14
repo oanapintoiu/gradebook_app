@@ -10,3 +10,25 @@ A simple gradebook app with the following features:
 
 4. **Prints out a message**: It can print out a message to indicate a student's grade and pass/fail status using already declared functions.
 
+
+
+## Dependencies
+
+1. Install `npm install --save-dev jest`.
+
+## Installation
+
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies using `npm install --save-dev jest`.
+
+## Usage:
+
+To use the app, simply follow these steps:
+
+1. To run the tests, type `npx jest` in the terminal from the root directory of the project.
+2. To see the console logs in the .js file, type `node src/gradebook_app.js` in the terminal from the root directory of the project. 
+
+
+## Credits
+
+Designed written and tested with [FreeCodeCamp.](https://www.freecodecamp.org/opin) 
