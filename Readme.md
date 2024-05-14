@@ -21,12 +21,11 @@ A simple gradebook app with the following features:
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies using `npm install --save-dev jest`.
 
-## Usage:
+## Usage/Tests:
 
 To use the app, simply follow these steps:
 
 1. To run the tests, type `npx jest` in the terminal from the root directory of the project.
-2. To only see the console logs in a particular .js file, type, for example, `node src/average_grade.js` in the terminal from the root directory of the project. 
 
 
 ## Credits

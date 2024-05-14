@@ -15,8 +15,10 @@ function getGrade(score) {
   }
   return grade;
 }
-console.log(getGrade(96));
-console.log(getGrade(82));
-console.log(getGrade(56));
 
-module.exports = getGrade;
+function getPassingGrade(score) {
+  const grade = getGrade(score);
+  return grade !== "F";
+}
+
+module.exports = { getGrade, getPassingGrade };
