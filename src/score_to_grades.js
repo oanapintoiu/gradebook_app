@@ -17,8 +17,8 @@ function getGrade(score) {
 }
 
 function getPassingGrade(score) {
-  const grade = getGrade(score);
-  return grade !== "F";
+    const grade = getGrade(score);
+    return grade !== "F"
 }
 
-module.exports = { getGrade, getPassingGrade };
+module.exports = {getGrade, getPassingGrade};
