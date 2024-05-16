@@ -30,4 +30,5 @@ To use the app, simply follow these steps:
 
 ## Credits
 
-Designed written and tested with [FreeCodeCamp.](https://www.freecodecamp.org/opin) 
+Designed, written and tested with [FreeCodeCamp.](https://www.freecodecamp.org/opin). 
+This is a mini-project that is part of the JavaScript Algorithm and Data Structures Certification, which includes the JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more.
