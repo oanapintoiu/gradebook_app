@@ -12,13 +12,19 @@ function askQuestion(query) {
 }
 
 async function main() {
-  const numGrades = parseInt(await askQuestion('Enter the number of grades (max 6): '), 10);
+async function getValidNumberOfGrades() {
+  while (true) {
+    const numGrades = parseInt(await askQuestion('Enter the number of grades (max 6): '), 10);
 
-  if (numGrades < 1 || numGrades > 6) {
-    console.log('Please enter a number between 1 and 6.');
-    rl.close();
-    return;
+    if (numGrades >= 1 && numGrades <= 6) {
+      return numGrades;
+    } else {
+      console.log('Please enter a number between 1 and 6.');
+    }
   }
+}
+
+const numGrades = await getValidNumberOfGrades();
 
 async function getValidGrade(index) {
   while (true) {
