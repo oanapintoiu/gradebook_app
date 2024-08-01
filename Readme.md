@@ -6,7 +6,7 @@ Using node.js, the user can enter a a set number of grades (maximum of 6) and th
 
 ## Table of Contents
 
-[Description](#gradebook-app) | [Features](#features) | [Technologies Used](#technologies-used) | [Installation](#installation) | [Usage](#usage) | [Credits](#credits) 
+[Description](#gradebook-app) | [Features](#features) | [Technologies Used](#technologies-used) | [Installation](#installation) | [Usage](#usage) | [Result](#result) | [Credits](#credits) 
 
 ## Features
 
