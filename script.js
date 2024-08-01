@@ -21,8 +21,16 @@ async function main() {
   }
 
 async function getValidGrade(index) {
+
     const input = await askQuestion(`Enter grade number ${index + 1}: `);
     const grade = parseFloat(input);
+
+    if (!isNaN(grade) && grade >= 0 && grade <= 100) {
+      return grade;
+    } else {
+      console.log('The grade must be between 0 and 100. Please try again.');
+    
+  }
 }
 
   const grades = [];
@@ -31,7 +39,8 @@ async function getValidGrade(index) {
     grades.push(grade);
   }
 
-  
+  console.log(grades);
+  rl.close();
 }
 
 main();
