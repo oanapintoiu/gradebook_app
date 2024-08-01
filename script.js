@@ -19,14 +19,19 @@ async function main() {
     rl.close();
     return;
   }
-  
-  const message = `Your number of grades is ${numGrades}`;
 
-  console.log(message);
-  rl.close();
+async function getValidGrade(index) {
+    const input = await askQuestion(`Enter grade number ${index + 1}: `);
+    const grade = parseFloat(input);
+}
+
+  const grades = [];
+  for (let i = 0; i < numGrades; i++) {
+    const grade = await getValidGrade(i);
+    grades.push(grade);
+  }
+
+  
 }
 
 main();
-
-
-
