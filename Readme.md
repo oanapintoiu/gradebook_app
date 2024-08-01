@@ -1,6 +1,12 @@
 # Gradebook APP
 
-A simple gradebook app with the following features:
+A simple gradebook app with taht can calculate an average, convert a number range to a letter, check if a student failed or passed and print out a message.
+
+## Table of Contents
+
+[Description](#gradebook-app) | [Features](#features) | [Technologies Used](#technologies-used) | [Installation](#installation) | [Usage](#usage) | [Credits](#credits) 
+
+## Features
 
 1. **Calculates an average**: The app calculates the average of a set of scores using a "for" statement.
 
@@ -11,17 +17,18 @@ A simple gradebook app with the following features:
 4. **Prints out a message**: It can print out a message to indicate a student's grade and pass/fail status using already declared functions.
 
 
+## Technologies Used
 
-## Dependencies
-
-1. Install `npm install --save-dev jest`.
+1. JavaScript
+2. Node
+3. Jest
 
 ## Installation
 
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies using `npm install --save-dev jest`.
 
-## Usage/Tests:
+## Usage:
 
 To use the app, simply follow these steps:
 
