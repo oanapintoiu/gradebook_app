@@ -44,7 +44,12 @@ async function getValidGrade(index) {
     grades.push(grade);
   }
 
-  console.log(grades);
+  const average = getAverage(grades);
+  const letterGrade = getGrade(average);
+  const passing = getPassingGrade(average);
+  const message = `Your average is ${average.toFixed(2)} (${letterGrade}). ${passing ? 'Congratulations, you passed!' : 'Unfortunately, you failed.'}`;
+
+  console.log(message);
   rl.close();
 }
 
