@@ -1,6 +1,6 @@
 # Gradebook APP
 
-A simple gradebook app with taht can calculate an average, convert a number range to a letter, check if a student failed or passed and print out a message.
+A simple gradebook app with that can calculate an average, convert a number range to a letter, check if a student failed or passed and print out a message.
 
 Using node.js, the user can enter a a set number of grades (maximum of 6) and the program will calculate the average and then convert the average score into a letter grade and informs the user if they passed or failed based on the average.
 
